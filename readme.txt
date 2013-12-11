@@ -13,10 +13,11 @@ wpSOL connects WordPress to the Scouting Nederland OpenID server to allow people
 this plugin connects over https to login.scouting.nl to verify the login as part of the openid-standard
 
 == Installation ==
-login to sol.scouting.nl and change your role to "webmaster". go to login.scouting.nl move your mouse over "mijn websites" and click on "voeg beheerde website toe"
-enter the domain which is setup for wordpress and select the organization you want to give access.
+1. login to sol.scouting.nl and change your role to "webmaster". 
+1. go to login.scouting.nl move your mouse over "mijn websites" and click on "voeg beheerde website toe"
+1. enter the domain which is setup for wordpress and select the organization you want to give access.
 
-install and activate the plugin, that's it.
+1. install and activate the plugin, that's it.
 
 == Frequently Asked Questions ==
 
@@ -32,8 +33,8 @@ Yes, there is a settings-page where you can setup the Name the user gets in thei
 == Changelog ==
 
 = v0.3 =
-first public wordpress.org release
-make sidebar widget follow wordpress coding guidelines
+*first public wordpress.org release
+*make sidebar widget follow wordpress coding guidelines
 
 = v0.2 =
 added a sidebar-login-widget
