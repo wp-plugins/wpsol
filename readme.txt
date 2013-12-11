@@ -7,6 +7,8 @@ Tags: scouting nederland, login, sidebar-widget
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
+Connect Wordpress to the Scouting Nederland OpenID-server
+
 == Description ==
 wpSOL connects WordPress to the Scouting Nederland OpenID server to allow people to login and register with their login-account from scouting.nl
 
@@ -33,13 +35,13 @@ Yes, there is a settings-page where you can setup the Name the user gets in thei
 == Changelog ==
 
 = v0.3 =
-*first public wordpress.org release
-*make sidebar widget follow wordpress coding guidelines
+* first public wordpress.org release
+* make sidebar widget follow wordpress coding guidelines
 
 = v0.2 =
-added a sidebar-login-widget
-added a settings page
-removed static-setting of domain-names
+* added a sidebar-login-widget
+* added a settings page
+* removed static-setting of domain-names
 
 = v0.1 =
-initial internal release
+* initial internal release
