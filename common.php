@@ -103,12 +103,14 @@ function wpsol_authenticate_username_password()
 	if ($openid->mode) {
 		if($openid->validate())
 		{
+			$new_user = false;
+
 			$gegevens = $openid->getAttributes();
 			$username = $gegevens['namePerson/friendly'];
 
 			$user_id = username_exists( $username );
 
-			$new_user = false;
+			// ToDo - dit klopt niet, $email heeft volgens mij geen waarde.. en wat als het mailadres wel al bestaat?
 			if( !$user_id and email_exists($email) == false )
 			{
 				$random_password = wp_generate_password( 18, false );
