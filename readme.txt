@@ -14,8 +14,7 @@ wpSOL connects WordPress to the Scouting Nederland OpenID server to allow people
 
 this plugin connects over https to login.scouting.nl to verify the login as part of the openid-standard
 
-bugs and feature-requests can go to:
-https://bitbucket.org/gerritjanf/wpsol/issues
+bugs and feature-requests can go to: [bitbucket|https://bitbucket.org/gerritjanf/wpsol/issues]
 
 == Screenshots ==
 1. wp-login.php met scouting-login
