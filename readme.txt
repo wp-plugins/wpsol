@@ -7,13 +7,7 @@ Tags: scouting, scouting nederland, sol, scoutsonline, openid, login, sidebar-wi
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-[NL]
-
 Verbind Wordpress met de Scouting Nederland OpenID-server
-
-[EN]
-
-Connect Wordpress to the Scouting Nederland OpenID-server
 
 == Description ==
 
