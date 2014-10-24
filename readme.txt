@@ -17,7 +17,7 @@ wpSOL verbind Wordpress met de Scouting Nederland OpenID-server zodat mensen kun
 
 om de login te valideren maakt deze plugin een https verbinding met login.scouting.nl, dit is onderdeel van de openid-standaard.
 
-bugs en feature-requests kan je kwijt op: [GitHub](https://github.com/koter84/wpSOL/issues)
+bugs en feature-requests kan je kwijt op: [GitHub](https://github.com/koter84/wpSOL/issues) of [WordPress](https://wordpress.org/support/plugin/wpsol)
 
 [EN]
 
@@ -25,7 +25,7 @@ wpSOL connects WordPress to the Scouting Nederland OpenID-server to allow people
 
 this plugin connects over https to login.scouting.nl to verify the login as part of the openid-standard
 
-bugs and feature-requests can go to: [GitHub](https://github.com/koter84/wpSOL/issues)
+bugs and feature-requests can go to: [GitHub](https://github.com/koter84/wpSOL/issues) or [WordPress](https://wordpress.org/support/plugin/wpsol)
 
 == Screenshots ==
 
@@ -55,7 +55,7 @@ bugs and feature-requests can go to: [GitHub](https://github.com/koter84/wpSOL/i
 
 = Het werkt niet! =
 
-Waarschijnlijk moet je het domein van je website toevoegen op login.scouting.nl, dit kan alleen als je ingelogd bent als webmaster van jouw groep!
+Waarschijnlijk moet je het domein van je website toevoegen op login.scouting.nl, dit kan alleen als je ingelogd bent als webmaster.
 Kijk bij de [installatie-tab](https://wordpress.org/plugins/wpsol/installation/) voor een volledige uitleg.
 
 = Moet ik onderdeel uitmaken van Scouting Nederland om hier gebruik van te maken? =
@@ -85,38 +85,53 @@ Yes, there is a settings-page where you can setup a redirect after login or logo
 
 == Changelog ==
 
-= v1.0.3 =
+= 1.1.0 =
+* Scouting Nederland changed the response from the server, now it works with standard LightOpenID again
+* updated readme to include dutch translations
+* show error when login is cancelled
+* widget can now show links for creating a new message and upload files
+* removed deprecated functions for widget ( you need to replace the widget )
+* updated widget output to match standard widgets
+
+= 1.0.3 =
 * added a redirect option for login and logout to go to the frontpage
 
-= v1.0.2 =
+= 1.0.2 =
 * moved code from bitbucket to github
 
-= v1.0.1 =
+= 1.0.1 =
 * some minor changes
 
-= v1.0 =
+= 1.0 =
 * code cleanup
 
-= v0.5 =
+= 0.5 =
 * i18n-support added to plugin
 
-= v0.4 =
+= 0.4 =
 * setup default options during installation
 * better login-flow
 * username_prefix and autocreate new user options added
 * better display of options page
 
-= v0.3 =
+= 0.3 =
 * first public wordpress.org release
 * make sidebar widget follow wordpress coding guidelines
 
-= v0.2 =
+= 0.2 =
 * added a sidebar-login-widget
 * added a settings page
 * removed static-setting of domain-names
 
-= v0.1 =
+= 0.1 =
 * initial internal release
+
+== Upgrade Notice ==
+
+= 1.1.0 =
+Let op! De login-widget is herschreven zodat de opbouw hetzelfde is als standaard widgets.
+Hierdoor moet je de widget opnieuw plaatsen op je site, en eventuele custom css hiervoor werkt niet meer correct!
+Houd er dus rekening mee dat na deze update je wellicht het een en ander moet aanpassen aan je custom-thema.
 
 == Translations ==
 
